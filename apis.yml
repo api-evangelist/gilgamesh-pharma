@@ -1,7 +1,17 @@
 aid: gilgamesh-pharma
 name: Gilgamesh Pharma
-description: 'Gilgamesh Pharma is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Gilgamesh Pharma (Gilgamesh Pharmaceuticals, Inc.) is a New York based clinical-stage
+  neuroscience company founded in 2019 that develops rapid-acting, next-generation
+  therapeutics for psychiatric and substance use disorders. Its discovery and translational
+  platform combines medicinal chemistry, neurocircuitry science, electrophysiology and
+  machine learning to identify new chemical entities, and its pipeline spans short-acting
+  5-HT2A receptor agonists, NMDA receptor antagonists, non-hallucinogenic neuroplastogens,
+  cardiac-safe ibogaine analogs and M1/M4 muscarinic programs. Lead assets include
+  bretisilocin (GM-2505), acquired by AbbVie in August 2025, and blixeprodil (GM-1020), an
+  orally bioavailable NMDAR antagonist in Phase 2 for major depressive disorder. Gilgamesh
+  is a drug developer, not a software vendor: it publishes no developer program, public
+  API, SDK or machine-readable specification of any kind.
 url: https://raw.githubusercontent.com/api-evangelist/gilgamesh-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +22,14 @@ created: '2026-08-21'
 modified: '2026-08-21'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Neuroscience
+- Mental Health
+- Clinical Trials
+- Drug Discovery
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gilgamesh-pharma-domain-security.yml
 - type: Website
+  url: https://www.gilgameshpharmaceutical.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gilgamesh-pharmaceuticals/
+- type: Twitter
+  url: https://twitter.com/gilgameshrx
+- type: PrivacyPolicy
+  url: https://mcusercontent.com/6c3f21fb747d330b7d588cc87/files/e79eefcc-bae9-6748-dc85-17d889fdb1af/Gilgamesh_Privacy_and_Expanded_Access_Policy_08.14.26.pdf
+- type: Listing
   url: https://forgeglobal.com/gilgamesh-pharma_stock/
+x-enrichment:
+  date: '2026-08-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Gilgamesh Pharma is a clinical-stage drug developer whose entire web presence is a single
+    static marketing page on tiiny.host; /developers, /api, /docs, /openapi.json, /graphql,
+    /llms.txt and every /.well-known/ path all return the site's own 404, and the company ships
+    molecules (bretisilocin, blixeprodil) rather than software, so there is no API to publish.
+  evidence:
+  - url: https://www.gilgameshpharmaceutical.com/
+    status: 200
+  - url: https://www.gilgameshpharmaceutical.com/developers
+    status: 404
+  - url: https://www.gilgameshpharmaceutical.com/openapi.json
+    status: 404
+  - url: https://www.gilgameshpharmaceutical.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-21'

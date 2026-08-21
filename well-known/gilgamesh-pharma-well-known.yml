@@ -1,0 +1,33 @@
+generated: '2026-08-21'
+method: probed
+source: https://www.gilgameshpharmaceutical.com/
+note: >-
+  Probed the company's only live web host. Every /.well-known/ path returned a genuine
+  HTTP 404 with the site's own 404 page (2,016 bytes), and a deliberate control probe of
+  /.well-known/this-path-does-not-exist-12345 returned the same 404 — so this host is NOT
+  a soft-404 catch-all and the absences below are real. No document was fetched or saved,
+  therefore NO WellKnown or SecurityTxt pointer is wired into apis.yml. The separately
+  registered gilgameshpharma.com resolves to a parked lander page (200, 114 bytes, JS
+  redirect to /lander) and is not a company-operated surface, so it was not probed further.
+hit_count: 0
+soft_404_control:
+  path: /.well-known/this-path-does-not-exist-12345
+  status: 404
+  bytes: 2016
+hosts:
+- host: https://www.gilgameshpharmaceutical.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
