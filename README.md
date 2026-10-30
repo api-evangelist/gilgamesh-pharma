@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gilgamesh Pharma is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/gilgamesh-pharma_stock/
+Gilgamesh Pharma (Gilgamesh Pharmaceuticals, Inc.) is a New York based clinical-stage neuroscience company founded in 2019 that develops rapid-acting, next-generation therapeutics for psychiatric and substance use disorders. Its discovery and translational platform combines medicinal chemistry, neurocircuitry science, electrophysiology and machine learning to identify new chemical entities, and its pipeline spans short-acting 5-HT2A receptor agonists, NMDA receptor antagonists, non-hallucinogenic neuroplastogens, cardiac-safe ibogaine analogs and M1/M4 muscarinic programs. Lead assets include bretisilocin (GM-2505), acquired by AbbVie in August 2025, and blixeprodil (GM-1020), an orally bioavailable NMDAR antagonist in Phase 2 for major depressive disorder. Gilgamesh is a drug developer, not a software vendor: it publishes no developer program, public API, SDK or machine-readable specification of any kind.
+
+**Areas:** Company · Pharmaceuticals · Biotechnology · Life Sciences · Neuroscience · Mental Health · Clinical Trials · Drug Discovery · Health
+
+## Gilgamesh Pharma on APIs.io
+
+Everything profiled for Gilgamesh Pharma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gilgamesh-pharma/](https://apis.io/providers/gilgamesh-pharma/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gilgamesh Pharma Domain Security](https://apis.io/security/gilgamesh-pharma/gilgamesh-pharma-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.gilgameshpharmaceutical.com/)
+- [Privacy policy](https://mcusercontent.com/6c3f21fb747d330b7d588cc87/files/e79eefcc-bae9-6748-dc85-17d889fdb1af/Gilgamesh_Privacy_and_Expanded_Access_Policy_08.14.26.pdf)
+
+## API Evangelist rating
+
+**Kin Score 5.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gilgamesh-pharma/](https://apis.io/providers/gilgamesh-pharma/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gilgamesh Pharma: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gilgamesh-pharma/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
